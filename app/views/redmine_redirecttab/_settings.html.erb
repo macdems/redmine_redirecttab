@@ -1,0 +1,17 @@
+<% string_fields = ProjectCustomField.find :all %>
+<% select_options = '<option value="">                 </option>' << options_from_collection_for_select(string_fields, :id, :name, @settings['redirect_custom_field'].to_i) %>
+
+
+<fieldset>
+
+<legend><%= l(:redmine_redirecttab_config_title) %></legend>
+
+<p><label><%= l(:redmine_redirecttab_label_tab_name) %>:</label>
+<%= text_field_tag 'settings[redirect_tab_name]', @settings['redirect_tab_name'] %><br />
+</p>
+
+<p><label><%= l(:redmine_redirecttab_label_tab_field) %>:</label>
+<%= select_tag 'settings[redirect_custom_field]', select_options.html_safe %><br />
+</p>
+
+</fieldset>

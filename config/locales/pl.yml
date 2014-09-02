@@ -1,0 +1,7 @@
+# English strings go here for Rails i18n
+pl:
+  permission_redirect_tab: "Pokaż kartę przekierowywującą"
+  redmine_redirecttab_config_title: "Kofiguracja przekierowania"
+  redmine_redirecttab_label_tab_name: "Nazwa karty"
+  redmine_redirecttab_label_tab_field: "Pole z adresem URL"
+  # my_label: "My label"

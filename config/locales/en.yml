@@ -1,0 +1,7 @@
+# English strings go here for Rails i18n
+en:
+  permission_redirect_tab: "Show Redirect Tab"
+  redmine_redirecttab_config_title: "Redirect Tab Configuration"
+  redmine_redirecttab_label_tab_name: "Tab Name"
+  redmine_redirecttab_label_tab_field: "URL Field"
+  # my_label: "My label"
